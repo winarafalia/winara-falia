@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Responsif</title>
+    <link rel="stylesheet" href="style.css">
+        
+
+</head>
+<body>
+
+<header>
+    <h1>Selamat Datang Di Website Saya</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<h1>Selamat Datang</h1>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section id="About"  class="skills">
+    <div class="skill-card">
+        <h3>Web Development</h3>
+        <p>Saya memiliki keahlian dalam HTML, CSS, JavaScript, dan framework seperti React dan Vue.js.</p>
+    </div>
+    <div class="skill-card">
+        <h3>UI/UX Design</h3>
+        <p>Saya merancang antarmuka yang intuitif dan mudah digunakan dengan fokus pada pengalaman pengguna yang positif.</p>
+    </div>
+    <div class="skill-card">
+        <h3>Problem Solving</h3>
+        <p>Saya ahli dalam menganalisis masalah kompleks dan menemukan solusi kreatif menggunakan teknologi terbaru.</p>
+    </div>
+    <div class="skill-card">
+        <h3>Cyber Security</h3>
+        <p>Saya ahli dalam mengamankan akun dan data data seseorang melalui aplikasi yang saya telah buat.</p>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-info">
+            <h3>Contact Us</h3>
+            <p>Email: </p>
+            <p>Phone:  </p>
+        </div>
+        <div class="footer-social">
+            <h3>Follow Us</h3> 
+            <a href="#" class="social-icon"><img src="tiktok.png" alt="" width="50px"></a>
+            <a href="#" class="social-icon"><img src="youtube.png" alt="" width="60px" height="60"></a>
+            <a href="#" class="social-icon"><img src="instagram.png" alt="" width="60"></a>
+            <a href="#" class="social-icon"><img src="github.png" alt="" width="55px"></a>
+        </div>
+        <div class="footer-newsletter">
+            <h3>Subscribe to Our Newsletter</h3>
+            <form id="newsletterForm" onsubmit="subscribe(event)">
+                <input type="email" id="email" placeholder="Your Email" required>
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+            <div id="subscriptionMessage" class="response-message"></div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
